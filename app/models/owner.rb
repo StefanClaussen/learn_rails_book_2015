@@ -5,7 +5,7 @@ class Owner
 	end
 
 	def birthdate
-		birthdate = date.new(1990, 12, 22)
+		birthdate = Date.new(1990, 12, 22)
 	end
 
 	def countdown
@@ -17,4 +17,5 @@ class Owner
 			countdown = (birthday.next_year - today).to_i
 		end
 	end
+	
 end
